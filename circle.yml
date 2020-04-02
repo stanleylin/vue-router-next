@@ -107,4 +107,4 @@ workflows:
             - test-unit
       - save-cache:
           requires:
-            - test-e2e
+            - coverage

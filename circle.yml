@@ -94,5 +94,4 @@ workflows:
             - build-e2e
       - coverage:
           requires:
-            - build
             - test-unit
